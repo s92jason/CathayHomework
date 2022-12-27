@@ -1,10 +1,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.jasonchen.cathayhomework.MainActivity">
+    tools:context="com.jasonchen.cathayhomework.view.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_baseline_refresh_24"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="@string/toolbar_action_refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_languange"
+        android:icon="@drawable/ic_baseline_translate_24"
+        android:orderInCategory="100"
+        android:title="@string/toolbar_action_refresh"
+        app:showAsAction="ifRoom" />
 </menu>

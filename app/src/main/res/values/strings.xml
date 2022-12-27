@@ -1,12 +1,26 @@
 <resources>
     <string name="app_name">CathayHomework</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- Toolbar相關文字  -->
+    <string name="activity_main_toolbar_title">台北旅遊</string>
+    <string name="toolbar_action_refresh">重新整理</string>
+
+    <!-- 語言選擇Dialog  -->
+    <string name="dialog_lang_selector_title">選擇語言</string>
+    <string-array name="dialog_lang_selector_list">
+        <item>正體中文</item>
+        <item>正體中文</item>
+        <item>正體中文</item>
+        <item>正體中文</item>
+        <item>正體中文</item>
+        <item>正體中文</item>
+        <item>正體中文</item>
+        <item>正體中文</item>
+        <item>正體中文</item>
+    </string-array>
+
+    <string name="attractions_list_fragment_no_result">沒有任何資料喔</string>
+    <string name="title_activity_attractions_detail">AttractionsDetailActivity</string>
+
+    <string name="text_dash">-</string>
 </resources>
